@@ -1,6 +1,4 @@
 #!/bin/zsh
-# uncomment this and the last line for zprof info
-# zmodload zsh/zprof
 
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES="$HOME/.dotfiles"
@@ -47,5 +45,3 @@ unset config_files updated_at
 # want in your public, versioned repo.
 # shellcheck disable=SC1090
 [ -f ~/.localrc ] && . ~/.localrc
-
-# zprof
